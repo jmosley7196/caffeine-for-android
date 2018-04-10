@@ -1,10 +1,4 @@
 # Caffeine
 
-Caffeine keeps you awake for
-
-* 1 min
-* 5 mins
-* 10 mins
-* and for infinite!
-
-Suggestions and critics are welcome!
+Are you looking for a caffeine app for android thats actually kept up to date?
+Well fear not because you've found one :)
