@@ -1,3 +1,4 @@
 <resources>
-    <string name="tile_name">Caffeine</string>
+    <string name="tile_name">Caffeine For Android</string>
+    <string name="title_activity_main">Caffeine</string>
 </resources>
