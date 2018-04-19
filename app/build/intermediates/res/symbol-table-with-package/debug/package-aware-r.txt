@@ -1052,7 +1052,6 @@ int layout select_dialog_singlechoice_material 0x7f0a003c
 int layout support_simple_spinner_dropdown_item 0x7f0a003d
 int layout tooltip 0x7f0a003e
 int mipmap ic_launcher 0x7f0b0000
-int mipmap ic_launcher_round 0x7f0b0001
 int string abc_action_bar_home_description 0x7f0c0000
 int string abc_action_bar_home_description_format 0x7f0c0001
 int string abc_action_bar_home_subtitle_description_format 0x7f0c0002

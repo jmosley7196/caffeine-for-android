@@ -1,10 +1,7 @@
 # Caffeine
 
-Caffeine keeps you awake for
+Tired of your phone falling asleep faster than you do?
+I am too!
 
-* 1 min
-* 5 mins
-* 10 mins
-* and for infinite!
-
-Suggestions and critics are welcome!
+Keep your phone awake! It makes life way better!
+App Detection coming soon :)

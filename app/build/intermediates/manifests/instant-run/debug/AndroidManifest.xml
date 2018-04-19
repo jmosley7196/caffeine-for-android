@@ -15,12 +15,11 @@
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/tile_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <service
-            android:name="tr.edu.iyte.caffeine.CaffeineService"
+            android:name="jmosley.android.caffeine.CaffeineService"
             android:icon="@drawable/ic_caffeine_empty"
             android:label="@string/tile_name"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
@@ -28,10 +27,10 @@
                 <action android:name="android.service.quicksettings.action.QS_TILE" />
             </intent-filter>
         </service>
-        <service android:name="tr.edu.iyte.caffeine.services.ScreenOffReceiverService" />
+        <service android:name="jmosley.android.caffeine.services.ScreenOffReceiverService" />
 
         <activity
-            android:name="tr.edu.iyte.caffeine.MainActivity"
+            android:name="jmosley.android.caffeine.MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>

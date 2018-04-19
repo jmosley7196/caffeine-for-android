@@ -1,4 +1,4 @@
-#Thu Apr 19 00:44:55 EDT 2018
-base.0=C\:\\Users\\User\\StudioProjects\\caffeine-for-android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\26
+#Thu Apr 19 01:55:34 EDT 2018
+base.0=C\:\\Users\\User\\StudioProjects\\caffeine-for-android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\71
 path.0=classes.dex
 renamed.0=classes.dex

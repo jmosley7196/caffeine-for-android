@@ -2,57 +2,733 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <devices>
+          <device id="Nexus 5" />
+          <device id="pixel_2_xl" />
+        </devices>
+      </config>
     </shared>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db7d8d74-b555-4efe-874f-cc3a8f39c00a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_0_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_0_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_26_1_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_26_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_2_2_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_2_2_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_exposed_instrumentation_api_publish_0_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_rules_0_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_0_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_annotation_javax_annotation_api_1_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_1_60_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/MainActivity.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/caffeine-for-android.iml" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/jmosley/android/caffeine/BuildConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/jmosley/android/caffeine/R.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jmosley/android/caffeine/BuildConfig.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jmosley/android/caffeine/R$anim.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jmosley/android/caffeine/R$animator.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jmosley/android/caffeine/R$attr.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jmosley/android/caffeine/R$bool.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jmosley/android/caffeine/R$color.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jmosley/android/caffeine/R$dimen.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jmosley/android/caffeine/R$drawable.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jmosley/android/caffeine/R$id.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jmosley/android/caffeine/R$integer.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jmosley/android/caffeine/R$layout.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jmosley/android/caffeine/R$mipmap.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jmosley/android/caffeine/R$string.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jmosley/android/caffeine/R$style.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jmosley/android/caffeine/R$styleable.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/jmosley/android/caffeine/R.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/android/caffeine/BuildConfig.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/android/caffeine/CaffeineService$WhenMappings.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/android/caffeine/CaffeineService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/android/caffeine/MainActivity.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/android/caffeine/R$anim.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/android/caffeine/R$animator.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/android/caffeine/R$attr.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/android/caffeine/R$bool.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/android/caffeine/R$color.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/android/caffeine/R$dimen.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/android/caffeine/R$drawable.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/android/caffeine/R$id.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/android/caffeine/R$integer.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/android/caffeine/R$layout.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/android/caffeine/R$mipmap.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/android/caffeine/R$string.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/android/caffeine/R$style.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/android/caffeine/R$styleable.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/android/caffeine/R.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/edu/android/caffeine/services/PowerBroadcastReceiver.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/edu/android/caffeine/services/ScreenOffReceiverService$Companion.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/edu/android/caffeine/services/ScreenOffReceiverService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/edu/android/caffeine/util/CaffeineManager$WhenMappings.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/edu/android/caffeine/util/CaffeineManager.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/edu/android/caffeine/util/CaffeineMode$WhenMappings.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/edu/android/caffeine/util/CaffeineMode.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/edu/android/caffeine/util/Clock$Percentage.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/edu/android/caffeine/util/Clock$TimerObject$Timer.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/edu/android/caffeine/util/Clock$TimerObject.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/edu/android/caffeine/util/Clock.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/edu/android/caffeine/util/ClockListener.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/edu/android/caffeine/util/ContextExtensionsKt.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/edu/android/caffeine/util/LogExtensionsKt.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/edu/android/caffeine/util/Loggable$DefaultImpls.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/jmosley/edu/android/caffeine/util/Loggable.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/9JpT4GxFF8B1H0J0FTOYiP4GKEY=" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/jmosley/android/caffeine/BuildConfig.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/jmosley/android/caffeine/R$anim.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/jmosley/android/caffeine/R$animator.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/jmosley/android/caffeine/R$attr.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/jmosley/android/caffeine/R$bool.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/jmosley/android/caffeine/R$color.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/jmosley/android/caffeine/R$dimen.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/jmosley/android/caffeine/R$drawable.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/jmosley/android/caffeine/R$id.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/jmosley/android/caffeine/R$integer.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/jmosley/android/caffeine/R$layout.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/jmosley/android/caffeine/R$mipmap.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/jmosley/android/caffeine/R$string.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/jmosley/android/caffeine/R$style.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/jmosley/android/caffeine/R$styleable.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/jmosley/android/caffeine/R.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/111/jmosley/android/caffeine/CaffeineService$WhenMappings.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/111/jmosley/android/caffeine/CaffeineService.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/111/jmosley/android/caffeine/MainActivity.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/111/jmosley/edu/android/caffeine/services/PowerBroadcastReceiver.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/111/jmosley/edu/android/caffeine/services/ScreenOffReceiverService$Companion.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/111/jmosley/edu/android/caffeine/services/ScreenOffReceiverService.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/111/jmosley/edu/android/caffeine/util/CaffeineManager$WhenMappings.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/111/jmosley/edu/android/caffeine/util/CaffeineManager.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/111/jmosley/edu/android/caffeine/util/CaffeineMode$WhenMappings.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/111/jmosley/edu/android/caffeine/util/CaffeineMode.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/111/jmosley/edu/android/caffeine/util/Clock$Percentage.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/111/jmosley/edu/android/caffeine/util/Clock$TimerObject$Timer.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/111/jmosley/edu/android/caffeine/util/Clock$TimerObject.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/111/jmosley/edu/android/caffeine/util/Clock.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/111/jmosley/edu/android/caffeine/util/ClockListener.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/111/jmosley/edu/android/caffeine/util/ContextExtensionsKt.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/111/jmosley/edu/android/caffeine/util/LogExtensionsKt.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/111/jmosley/edu/android/caffeine/util/Loggable$DefaultImpls.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/111/jmosley/edu/android/caffeine/util/Loggable.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/75/classes.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/android/caffeine/BuildConfig.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/android/caffeine/CaffeineService$WhenMappings.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/android/caffeine/CaffeineService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/android/caffeine/MainActivity.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/android/caffeine/R$anim.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/android/caffeine/R$animator.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/android/caffeine/R$attr.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/android/caffeine/R$bool.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/android/caffeine/R$color.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/android/caffeine/R$dimen.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/android/caffeine/R$drawable.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/android/caffeine/R$id.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/android/caffeine/R$integer.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/android/caffeine/R$layout.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/android/caffeine/R$mipmap.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/android/caffeine/R$string.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/android/caffeine/R$style.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/android/caffeine/R$styleable.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/android/caffeine/R.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/edu/android/caffeine/services/PowerBroadcastReceiver.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/edu/android/caffeine/services/ScreenOffReceiverService$Companion.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/edu/android/caffeine/services/ScreenOffReceiverService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/edu/android/caffeine/util/CaffeineManager$WhenMappings.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/edu/android/caffeine/util/CaffeineManager.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/edu/android/caffeine/util/CaffeineMode$WhenMappings.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/edu/android/caffeine/util/CaffeineMode.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/edu/android/caffeine/util/Clock$Percentage.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/edu/android/caffeine/util/Clock$TimerObject$Timer.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/edu/android/caffeine/util/Clock$TimerObject.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/edu/android/caffeine/util/Clock.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/edu/android/caffeine/util/ClockListener.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/edu/android/caffeine/util/ContextExtensionsKt.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/edu/android/caffeine/util/LogExtensionsKt.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/edu/android/caffeine/util/Loggable$DefaultImpls.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/jmosley/edu/android/caffeine/util/Loggable.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/1/buildId.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/1/jmosley/edu/android/caffeine/services/PowerBroadcastReceiver.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/1/jmosley/edu/android/caffeine/services/ScreenOffReceiverService$Companion.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/1/jmosley/edu/android/caffeine/services/ScreenOffReceiverService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/1/jmosley/edu/android/caffeine/util/CaffeineManager$WhenMappings.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/1/jmosley/edu/android/caffeine/util/CaffeineManager.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/1/jmosley/edu/android/caffeine/util/CaffeineMode$WhenMappings.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/1/jmosley/edu/android/caffeine/util/CaffeineMode.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/1/jmosley/edu/android/caffeine/util/Clock$Percentage.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/1/jmosley/edu/android/caffeine/util/Clock$TimerObject$Timer.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/1/jmosley/edu/android/caffeine/util/Clock$TimerObject.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/1/jmosley/edu/android/caffeine/util/Clock.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/1/jmosley/edu/android/caffeine/util/ClockListener.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/1/jmosley/edu/android/caffeine/util/ContextExtensionsKt.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/1/jmosley/edu/android/caffeine/util/LogExtensionsKt.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/1/jmosley/edu/android/caffeine/util/Loggable$DefaultImpls.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/1/jmosley/edu/android/caffeine/util/Loggable.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/buildId.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/jmosley/android/caffeine/BuildConfig.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/jmosley/android/caffeine/CaffeineService$WhenMappings.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/jmosley/android/caffeine/CaffeineService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/jmosley/android/caffeine/MainActivity.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/jmosley/android/caffeine/R$anim.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/jmosley/android/caffeine/R$animator.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/jmosley/android/caffeine/R$attr.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/jmosley/android/caffeine/R$bool.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/jmosley/android/caffeine/R$color.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/jmosley/android/caffeine/R$dimen.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/jmosley/android/caffeine/R$drawable.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/jmosley/android/caffeine/R$id.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/jmosley/android/caffeine/R$integer.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/jmosley/android/caffeine/R$layout.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/jmosley/android/caffeine/R$mipmap.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/jmosley/android/caffeine/R$string.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/jmosley/android/caffeine/R$style.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/jmosley/android/caffeine/R$styleable.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/jmosley/android/caffeine/R.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/jmosley/android/caffeine/CaffeineService$WhenMappings.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/jmosley/android/caffeine/CaffeineService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/jmosley/android/caffeine/MainActivity.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/jmosley/edu/android/caffeine/services/PowerBroadcastReceiver.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/jmosley/edu/android/caffeine/services/ScreenOffReceiverService$Companion.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/jmosley/edu/android/caffeine/services/ScreenOffReceiverService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/jmosley/edu/android/caffeine/util/CaffeineManager$WhenMappings.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/jmosley/edu/android/caffeine/util/CaffeineManager.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/jmosley/edu/android/caffeine/util/CaffeineMode$WhenMappings.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/jmosley/edu/android/caffeine/util/CaffeineMode.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/jmosley/edu/android/caffeine/util/Clock$Percentage.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/jmosley/edu/android/caffeine/util/Clock$TimerObject$Timer.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/jmosley/edu/android/caffeine/util/Clock$TimerObject.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/jmosley/edu/android/caffeine/util/Clock.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/jmosley/edu/android/caffeine/util/ClockListener.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/jmosley/edu/android/caffeine/util/ContextExtensionsKt.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/jmosley/edu/android/caffeine/util/LogExtensionsKt.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/jmosley/edu/android/caffeine/util/Loggable$DefaultImpls.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/jmosley/edu/android/caffeine/util/Loggable.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/CaffeineService.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/MainActivity.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/services/PowerBroadcastReceiver.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/services/ScreenOffReceiverService.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/util/CaffeineManager.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/util/CaffeineMode.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/util/Clock.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/util/ContextExtensions.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/util/LogExtensions.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/util/OnClockTickListener.kt" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/tr/edu/iyte/caffeine/BuildConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/tr/edu/iyte/caffeine/R.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tr/edu/iyte/caffeine/BuildConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tr/edu/iyte/caffeine/R$anim.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tr/edu/iyte/caffeine/R$animator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tr/edu/iyte/caffeine/R$attr.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tr/edu/iyte/caffeine/R$bool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tr/edu/iyte/caffeine/R$color.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tr/edu/iyte/caffeine/R$dimen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tr/edu/iyte/caffeine/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tr/edu/iyte/caffeine/R$id.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tr/edu/iyte/caffeine/R$integer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tr/edu/iyte/caffeine/R$layout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tr/edu/iyte/caffeine/R$mipmap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tr/edu/iyte/caffeine/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tr/edu/iyte/caffeine/R$style.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tr/edu/iyte/caffeine/R$styleable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/tr/edu/iyte/caffeine/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/META-INF/app_debug.kotlin_module" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/META-INF/app_debug.kotlin_module" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/BuildConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/CaffeineService$WhenMappings.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/CaffeineService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/MainActivity$onCreate$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/MainActivity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/R$anim.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/R$animator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/R$attr.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/R$bool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/R$color.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/R$dimen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/R$id.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/R$integer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/R$layout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/R$mipmap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/R$style.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/R$styleable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/services/PowerBroadcastReceiver.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/services/ScreenOffReceiverService$Companion.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/services/ScreenOffReceiverService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/util/CaffeineManager$WhenMappings.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/util/CaffeineManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/util/CaffeineMode$WhenMappings.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/util/CaffeineMode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/util/Clock$Percentage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/util/Clock$TimerObject$Timer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/util/Clock$TimerObject.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/util/Clock.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/util/ClockListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/util/ContextExtensionsKt.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/util/LogExtensionsKt.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/util/Loggable$DefaultImpls.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/tr/edu/iyte/caffeine/util/Loggable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_4/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_4/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_6/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_6/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_8/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_8/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/8N4Y_e0Um3k5FaGaf+L2tI4IhlU=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/8N4Y_e0Um3k5FaGaf+L2tI4IhlU=" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/u0LNUP6tjQdQQTqIqBug2JoKLDM=" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/processInstantRunDebugResourcesApk/package_resources-debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/processInstantRunDebugResourcesApk/package_resources-debug/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-apk/debug/app-debug.apk" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-main-apk-res/debug/main_resources/resources_ap" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-main-apk-res/debug/main_resources/resources_ap" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest-checker/debug/manifest.crc" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest-checker/debug/manifest.crc" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest-checker/debug/manifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest-checker/debug/manifest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_content_main.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_content_main.xml.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/resources/instant-run/debug/resources-debug.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/resources/instant-run/debug/resources-debug.apk" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_1.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_1.apk" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_2.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_2.apk" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_3.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_3.apk" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_6.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_6.apk" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_8.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_8.apk" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_9.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_9.apk" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/56.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/57.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/compat/R$attr.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/compat/R$attr.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/compat/R$bool.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/compat/R$bool.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/compat/R$color.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/compat/R$color.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/compat/R$dimen.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/compat/R$dimen.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/compat/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/compat/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/compat/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/compat/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/compat/R$integer.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/compat/R$integer.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/compat/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/compat/R$layout.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/compat/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/compat/R$string.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/compat/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/compat/R$style.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/compat/R$styleable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/compat/R$styleable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/compat/R.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/compat/R.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/design/R$anim.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/design/R$anim.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/design/R$animator.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/design/R$animator.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/design/R$attr.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/design/R$attr.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/design/R$bool.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/design/R$bool.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/design/R$color.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/design/R$color.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/design/R$dimen.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/design/R$dimen.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/design/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/design/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/design/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/design/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/design/R$integer.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/design/R$integer.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/design/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/design/R$layout.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/design/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/design/R$string.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/design/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/design/R$style.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/design/R$styleable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/design/R$styleable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/design/R.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/design/R.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/fragment/R$attr.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/fragment/R$attr.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/fragment/R$bool.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/fragment/R$bool.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/fragment/R$color.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/fragment/R$color.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/fragment/R$dimen.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/fragment/R$dimen.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/fragment/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/fragment/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/fragment/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/fragment/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/fragment/R$integer.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/fragment/R$integer.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/fragment/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/fragment/R$layout.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/fragment/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/fragment/R$string.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/fragment/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/fragment/R$style.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/fragment/R$styleable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/fragment/R$styleable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/fragment/R.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/fragment/R.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/mediacompat/R$attr.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/mediacompat/R$attr.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/mediacompat/R$bool.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/mediacompat/R$bool.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/mediacompat/R$color.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/mediacompat/R$color.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/mediacompat/R$dimen.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/mediacompat/R$dimen.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/mediacompat/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/mediacompat/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/mediacompat/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/mediacompat/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/mediacompat/R$integer.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/mediacompat/R$integer.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/mediacompat/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/mediacompat/R$layout.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/mediacompat/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/mediacompat/R$string.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/mediacompat/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/mediacompat/R$style.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/mediacompat/R$styleable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/mediacompat/R$styleable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/android/support/mediacompat/R.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/mediacompat/R.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/com/android/tools/ir/dummy/slice_0.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/59/android/arch/lifecycle/R.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/arch/lifecycle/R.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/59/com/android/tools/ir/dummy/slice_1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/coreutils/R$attr.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/coreutils/R$attr.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/coreutils/R$bool.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/coreutils/R$bool.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/coreutils/R$color.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/coreutils/R$color.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/coreutils/R$dimen.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/coreutils/R$dimen.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/coreutils/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/coreutils/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/coreutils/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/coreutils/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/coreutils/R$integer.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/coreutils/R$integer.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/coreutils/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/coreutils/R$layout.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/coreutils/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/coreutils/R$string.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/coreutils/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/coreutils/R$style.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/coreutils/R$styleable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/coreutils/R$styleable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/coreutils/R.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/coreutils/R.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/v4/R$attr.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v4/R$attr.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/v4/R$bool.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v4/R$bool.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/v4/R$color.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v4/R$color.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/v4/R$dimen.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v4/R$dimen.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/v4/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v4/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/v4/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v4/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/v4/R$integer.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v4/R$integer.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/v4/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v4/R$layout.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/v4/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v4/R$string.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/v4/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v4/R$style.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/v4/R$styleable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v4/R$styleable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/v4/R.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v4/R.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/v7/appcompat/R$anim.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v7/appcompat/R$anim.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/v7/appcompat/R$attr.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v7/appcompat/R$attr.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/v7/appcompat/R$bool.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v7/appcompat/R$bool.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/v7/appcompat/R$color.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v7/appcompat/R$color.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/v7/appcompat/R$dimen.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v7/appcompat/R$dimen.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/v7/appcompat/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v7/appcompat/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/v7/appcompat/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v7/appcompat/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/v7/appcompat/R$integer.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v7/appcompat/R$integer.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/v7/appcompat/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v7/appcompat/R$layout.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/v7/appcompat/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v7/appcompat/R$string.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/v7/appcompat/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v7/appcompat/R$style.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/v7/appcompat/R$styleable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v7/appcompat/R$styleable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/android/support/v7/appcompat/R.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v7/appcompat/R.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/com/android/tools/ir/dummy/slice_2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/tr/edu/iyte/caffeine/BuildConfig.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/tr/edu/iyte/caffeine/CaffeineService$WhenMappings.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/tr/edu/iyte/caffeine/CaffeineService.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/tr/edu/iyte/caffeine/MainActivity$onCreate$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/tr/edu/iyte/caffeine/MainActivity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/tr/edu/iyte/caffeine/R$anim.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/tr/edu/iyte/caffeine/R$animator.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/tr/edu/iyte/caffeine/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/tr/edu/iyte/caffeine/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/tr/edu/iyte/caffeine/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/tr/edu/iyte/caffeine/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/tr/edu/iyte/caffeine/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/tr/edu/iyte/caffeine/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/tr/edu/iyte/caffeine/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/tr/edu/iyte/caffeine/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/tr/edu/iyte/caffeine/R$mipmap.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/tr/edu/iyte/caffeine/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/tr/edu/iyte/caffeine/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/tr/edu/iyte/caffeine/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/60/tr/edu/iyte/caffeine/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61/android/support/graphics/drawable/R$attr.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/graphics/drawable/R$attr.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61/android/support/graphics/drawable/R$bool.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/graphics/drawable/R$bool.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61/android/support/graphics/drawable/R$color.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/graphics/drawable/R$color.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61/android/support/graphics/drawable/R$dimen.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/graphics/drawable/R$dimen.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61/android/support/graphics/drawable/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/graphics/drawable/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61/android/support/graphics/drawable/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/graphics/drawable/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61/android/support/graphics/drawable/R$integer.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/graphics/drawable/R$integer.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61/android/support/graphics/drawable/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/graphics/drawable/R$layout.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61/android/support/graphics/drawable/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/graphics/drawable/R$string.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61/android/support/graphics/drawable/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/graphics/drawable/R$style.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61/android/support/graphics/drawable/R$styleable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/graphics/drawable/R$styleable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61/android/support/graphics/drawable/R.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/graphics/drawable/R.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61/android/support/transition/R$attr.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/transition/R$attr.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61/android/support/transition/R$bool.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/transition/R$bool.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61/android/support/transition/R$color.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/transition/R$color.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61/android/support/transition/R$dimen.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/transition/R$dimen.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61/android/support/transition/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/transition/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61/android/support/transition/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/transition/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61/android/support/transition/R$integer.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/transition/R$integer.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61/android/support/transition/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/transition/R$layout.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61/android/support/transition/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/transition/R$string.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61/android/support/transition/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/transition/R$style.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61/android/support/transition/R$styleable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/transition/R$styleable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61/android/support/transition/R.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/transition/R.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/61/com/android/tools/ir/dummy/slice_3.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/62/com/android/tools/ir/dummy/slice_4.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/63/com/android/tools/ir/dummy/slice_5.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/64/com/android/tools/ir/dummy/slice_6.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65/android/support/coreui/R$attr.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/coreui/R$attr.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65/android/support/coreui/R$bool.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/coreui/R$bool.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65/android/support/coreui/R$color.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/coreui/R$color.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65/android/support/coreui/R$dimen.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/coreui/R$dimen.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65/android/support/coreui/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/coreui/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65/android/support/coreui/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/coreui/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65/android/support/coreui/R$integer.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/coreui/R$integer.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65/android/support/coreui/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/coreui/R$layout.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65/android/support/coreui/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/coreui/R$string.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65/android/support/coreui/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/coreui/R$style.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65/android/support/coreui/R$styleable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/coreui/R$styleable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65/android/support/coreui/R.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/coreui/R.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65/android/support/v7/recyclerview/R$attr.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v7/recyclerview/R$attr.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65/android/support/v7/recyclerview/R$bool.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v7/recyclerview/R$bool.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65/android/support/v7/recyclerview/R$color.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v7/recyclerview/R$color.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65/android/support/v7/recyclerview/R$dimen.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v7/recyclerview/R$dimen.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65/android/support/v7/recyclerview/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v7/recyclerview/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65/android/support/v7/recyclerview/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v7/recyclerview/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65/android/support/v7/recyclerview/R$integer.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v7/recyclerview/R$integer.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65/android/support/v7/recyclerview/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v7/recyclerview/R$layout.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65/android/support/v7/recyclerview/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v7/recyclerview/R$string.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65/android/support/v7/recyclerview/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v7/recyclerview/R$style.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65/android/support/v7/recyclerview/R$styleable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v7/recyclerview/R$styleable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65/android/support/v7/recyclerview/R.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/v7/recyclerview/R.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/65/com/android/tools/ir/dummy/slice_7.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/android/support/graphics/drawable/animated/R$attr.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/graphics/drawable/animated/R$attr.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/android/support/graphics/drawable/animated/R$bool.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/graphics/drawable/animated/R$bool.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/android/support/graphics/drawable/animated/R$color.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/graphics/drawable/animated/R$color.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/android/support/graphics/drawable/animated/R$dimen.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/graphics/drawable/animated/R$dimen.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/android/support/graphics/drawable/animated/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/graphics/drawable/animated/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/android/support/graphics/drawable/animated/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/graphics/drawable/animated/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/android/support/graphics/drawable/animated/R$integer.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/graphics/drawable/animated/R$integer.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/android/support/graphics/drawable/animated/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/graphics/drawable/animated/R$layout.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/android/support/graphics/drawable/animated/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/graphics/drawable/animated/R$string.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/android/support/graphics/drawable/animated/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/graphics/drawable/animated/R$style.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/android/support/graphics/drawable/animated/R$styleable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/graphics/drawable/animated/R$styleable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/android/support/graphics/drawable/animated/R.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/graphics/drawable/animated/R.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/com/android/tools/ir/dummy/slice_8.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/tr/edu/iyte/caffeine/services/PowerBroadcastReceiver.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/tr/edu/iyte/caffeine/services/ScreenOffReceiverService$Companion.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/tr/edu/iyte/caffeine/services/ScreenOffReceiverService.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/tr/edu/iyte/caffeine/util/CaffeineManager$WhenMappings.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/tr/edu/iyte/caffeine/util/CaffeineManager.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/tr/edu/iyte/caffeine/util/CaffeineMode$WhenMappings.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/tr/edu/iyte/caffeine/util/CaffeineMode.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/tr/edu/iyte/caffeine/util/Clock$Percentage.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/tr/edu/iyte/caffeine/util/Clock$TimerObject$Timer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/tr/edu/iyte/caffeine/util/Clock$TimerObject.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/tr/edu/iyte/caffeine/util/Clock.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/tr/edu/iyte/caffeine/util/ClockListener.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/tr/edu/iyte/caffeine/util/ContextExtensionsKt.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/tr/edu/iyte/caffeine/util/LogExtensionsKt.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/tr/edu/iyte/caffeine/util/Loggable$DefaultImpls.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/66/tr/edu/iyte/caffeine/util/Loggable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/67/android/support/constraint/R$attr.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/constraint/R$attr.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/67/android/support/constraint/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/constraint/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/67/android/support/constraint/R$styleable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/constraint/R$styleable.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/67/android/support/constraint/R.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/110/android/support/constraint/R.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/67/com/android/tools/ir/dummy/slice_9.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/16/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/17/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/18/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/19/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/20/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/21/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/22/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/23/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/24/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/25/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/26/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/27/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/28/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/BuildConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/CaffeineService$WhenMappings.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/CaffeineService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/MainActivity$onCreate$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/MainActivity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/R$anim.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/R$animator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/R$attr.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/R$bool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/R$color.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/R$dimen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/R$id.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/R$integer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/R$layout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/R$mipmap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/R$style.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/R$styleable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/services/PowerBroadcastReceiver.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/services/ScreenOffReceiverService$Companion.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/services/ScreenOffReceiverService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/util/CaffeineManager$WhenMappings.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/util/CaffeineManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/util/CaffeineMode$WhenMappings.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/util/CaffeineMode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/util/Clock$Percentage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/util/Clock$TimerObject$Timer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/util/Clock$TimerObject.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/util/Clock.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/util/ClockListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/util/ContextExtensionsKt.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/util/LogExtensionsKt.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/util/Loggable$DefaultImpls.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/tr/edu/iyte/caffeine/util/Loggable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/tr/edu/iyte/caffeine/BuildConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/tr/edu/iyte/caffeine/CaffeineService$WhenMappings.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/tr/edu/iyte/caffeine/CaffeineService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/tr/edu/iyte/caffeine/MainActivity$onCreate$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/tr/edu/iyte/caffeine/MainActivity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/tr/edu/iyte/caffeine/R$anim.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/tr/edu/iyte/caffeine/R$animator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/tr/edu/iyte/caffeine/R$attr.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/tr/edu/iyte/caffeine/R$bool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/tr/edu/iyte/caffeine/R$color.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/tr/edu/iyte/caffeine/R$dimen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/tr/edu/iyte/caffeine/R$drawable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/tr/edu/iyte/caffeine/R$id.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/tr/edu/iyte/caffeine/R$integer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/tr/edu/iyte/caffeine/R$layout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/tr/edu/iyte/caffeine/R$mipmap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/tr/edu/iyte/caffeine/R$string.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/tr/edu/iyte/caffeine/R$style.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/tr/edu/iyte/caffeine/R$styleable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/tr/edu/iyte/caffeine/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/tr/edu/iyte/caffeine/services/PowerBroadcastReceiver.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/tr/edu/iyte/caffeine/services/ScreenOffReceiverService$Companion.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/tr/edu/iyte/caffeine/services/ScreenOffReceiverService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/tr/edu/iyte/caffeine/util/CaffeineManager$WhenMappings.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/tr/edu/iyte/caffeine/util/CaffeineManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/tr/edu/iyte/caffeine/util/CaffeineMode$WhenMappings.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/tr/edu/iyte/caffeine/util/CaffeineMode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/tr/edu/iyte/caffeine/util/Clock$Percentage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/tr/edu/iyte/caffeine/util/Clock$TimerObject$Timer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/tr/edu/iyte/caffeine/util/Clock$TimerObject.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/tr/edu/iyte/caffeine/util/Clock.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/tr/edu/iyte/caffeine/util/ClockListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/tr/edu/iyte/caffeine/util/ContextExtensionsKt.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/tr/edu/iyte/caffeine/util/LogExtensionsKt.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/tr/edu/iyte/caffeine/util/Loggable$DefaultImpls.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/tr/edu/iyte/caffeine/util/Loggable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/0.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/0.jar" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/build-history.bin" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/build-history.bin" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-snapshot.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-snapshot.tab" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-snapshot.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-snapshot.tab.keystream" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-snapshot.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-snapshot.tab.keystream.len" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-snapshot.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-snapshot.tab.values.at" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-snapshot.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-snapshot.tab_i" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.keystream" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.values.at" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab_i" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.keystream" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.keystream.len" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab_i" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/inline-functions.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/inline-functions.tab.keystream" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/inline-functions.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/inline-functions.tab.keystream.len" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/inline-functions.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/inline-functions.tab_i" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/package-parts.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/package-parts.tab" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab_i" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/counters.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/counters.tab" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.values.at" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab_i" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.len" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.values.at" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab_i" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream.len" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.len" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.len" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values.at" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values.at" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/last-build.bin" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/last-build.bin" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/META-INF/app_debug.kotlin_module" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/META-INF/app_debug.kotlin_module" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/tr/edu/iyte/caffeine/CaffeineService$WhenMappings.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/tr/edu/iyte/caffeine/CaffeineService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/tr/edu/iyte/caffeine/MainActivity$onCreate$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/tr/edu/iyte/caffeine/MainActivity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/tr/edu/iyte/caffeine/services/PowerBroadcastReceiver.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/tr/edu/iyte/caffeine/services/ScreenOffReceiverService$Companion.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/tr/edu/iyte/caffeine/services/ScreenOffReceiverService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/tr/edu/iyte/caffeine/util/CaffeineManager$WhenMappings.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/tr/edu/iyte/caffeine/util/CaffeineManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/tr/edu/iyte/caffeine/util/CaffeineMode$WhenMappings.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/tr/edu/iyte/caffeine/util/CaffeineMode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/tr/edu/iyte/caffeine/util/Clock$Percentage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/tr/edu/iyte/caffeine/util/Clock$TimerObject$Timer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/tr/edu/iyte/caffeine/util/Clock$TimerObject.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/tr/edu/iyte/caffeine/util/Clock.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/tr/edu/iyte/caffeine/util/ClockListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/tr/edu/iyte/caffeine/util/ContextExtensionsKt.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/tr/edu/iyte/caffeine/util/LogExtensionsKt.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/tr/edu/iyte/caffeine/util/Loggable$DefaultImpls.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/tr/edu/iyte/caffeine/util/Loggable.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/tr/edu/iyte/caffeine/ExampleInstrumentedTest.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/CaffeineService.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/MainActivity.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/services/PowerBroadcastReceiver.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/services/ScreenOffReceiverService.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/util/CaffeineManager.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/util/CaffeineMode.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/util/Clock.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/util/ContextExtensions.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/util/LogExtensions.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/util/OnClockTickListener.kt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/tr/edu/iyte/caffeine/ExampleUnitTest.java" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -75,33 +751,102 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
+      <file leaf-file-name="MainActivity.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="36" />
+            <state relative-caret-position="153">
+              <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
               <folding>
-                <element signature="e#387#406#0" expanded="true" />
+                <element signature="e#34#242#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ic_launcher.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png">
-          <provider selected="true" editor-type-id="images">
+      <file leaf-file-name="CaffeineManager.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/util/CaffeineManager.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CaffeineService.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/CaffeineService.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+              <folding>
+                <element signature="e#34#205#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="49" lean-forward="false" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+              <folding>
+                <element signature="e#1259#1278#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content_main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PowerBroadcastReceiver.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/services/PowerBroadcastReceiver.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>CaffeineManager</find>
+      <find>caffeinemanager</find>
+    </findStrings>
     <dirStrings>
       <dir>C:\Users\User\StudioProjects\caffeine-for-android\app\src\main\res</dir>
+      <dir>C:\Users\User\StudioProjects\caffeine-for-android\app\src\main\java\tr\edu\iyte\caffeine</dir>
+      <dir>C:\Users\User\StudioProjects\caffeine-for-android\app\src\main\java\jmosley\edu\android\caffeine</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -2200,9 +2945,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/CaffeineService.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/MainActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/util/CaffeineManager.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/services/PowerBroadcastReceiver.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/tr/edu/android/caffeine/services/PowerBroadcastReceiver.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/services/PowerBroadcastReceiver.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/util/CaffeineManager.kt" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/CaffeineService.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/MainActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
       </list>
     </option>
   </component>
@@ -2215,11 +2970,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="AndroidView" proportions="" version="1">
-      <flattenPackages />
+      <flattenPackages AndroidView="false" />
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages AndroidView="true" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -2229,9 +2984,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -2269,46 +3021,13 @@
               <item name="caffeine" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="caffeine-for-android" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="caffeine-for-android" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="caffeine-for-android" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="caffeine-for-android" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="mipmap" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="caffeine-for-android" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="mipmap" type="ddeffd01:AndroidResFolderTypeNode" />
-              <item name="ic_launcher" type="c431d0b8:AndroidResGroupNode" />
-            </path>
-            <path>
-              <item name="caffeine-for-android" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2318,7 +3037,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="android.project.structure.last.selected" value="Project" />
     <property name="android.project.structure.proportion" value="0.15" />
-    <property name="device.picker.selection" value="711KPRW0880622" />
+    <property name="device.picker.selection" value="Pixel_API_27" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -2516,24 +3235,24 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15351813" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27597404" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27597404" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2557,23 +3276,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/services/PowerBroadcastReceiver.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/services/PowerBroadcastReceiver.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
@@ -2581,11 +3291,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/MainActivity.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#34#242#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2600,11 +3312,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/services/ScreenOffReceiverService.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/services/ScreenOffReceiverService.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2612,9 +3323,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="e#387#406#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2622,7 +3331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2630,11 +3338,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/services/PowerBroadcastReceiver.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/services/PowerBroadcastReceiver.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
@@ -2642,11 +3349,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/MainActivity.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#34#242#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2661,11 +3370,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/services/ScreenOffReceiverService.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/services/ScreenOffReceiverService.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2673,9 +3381,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="e#387#406#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2683,7 +3389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2691,7 +3396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2699,13 +3403,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#387#406#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/services/PowerBroadcastReceiver.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/services/PowerBroadcastReceiver.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
@@ -2713,19 +3415,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/MainActivity.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#34#242#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/services/ScreenOffReceiverService.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/services/ScreenOffReceiverService.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2740,25 +3443,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/tr/edu/iyte/caffeine/ExampleInstrumentedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/tr/edu/iyte/caffeine/ExampleUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/tr/edu/iyte/caffeine/ExampleUnitTest.java" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2766,109 +3455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/MainActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_caffeine_33percent.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/util/ContextExtensions.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/util/CaffeineManager.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/services/ScreenOffReceiverService.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/tr/edu/iyte/caffeine/services/PowerBroadcastReceiver.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2892,14 +3478,145 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_caffeine_33percent.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_caffeine_66percent.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_caffeine_full.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/tr/edu/iyte/caffeine/ExampleInstrumentedTest.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_caffeine_empty.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/util/OnClockTickListener.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/services/ScreenOffReceiverService.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/util/CaffeineMode.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/util/Clock.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/util/ContextExtensions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/util/LogExtensions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/util/CaffeineManager.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/MainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="e#34#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/CaffeineService.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#34#205#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
@@ -2907,11 +3624,41 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="36" />
+        <state relative-caret-position="391">
+          <caret line="23" column="49" lean-forward="false" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
           <folding>
-            <element signature="e#387#406#0" expanded="true" />
+            <element signature="e#1259#1278#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/jmosley/edu/android/caffeine/services/PowerBroadcastReceiver.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
