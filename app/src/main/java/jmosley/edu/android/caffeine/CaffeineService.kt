@@ -1,4 +1,4 @@
-package jmosley.android.caffeine
+package jmosley.edu.android.caffeine
 /**
  *
  * Project Caffeine for Android
@@ -9,6 +9,9 @@ import android.graphics.drawable.Icon
 import android.service.quicksettings.Tile
 import android.service.quicksettings.TileService
 import jmosley.edu.android.caffeine.util.*
+
+
+
 
 /**
  * Class CaffeineService
@@ -107,9 +110,7 @@ class CaffeineService : TileService(), ClockListener, Loggable {
         updateTile(state = Tile.STATE_ACTIVE,
                 label = Clock.toString(),
                 icon = when (Clock.getPercentage()) {
-                    Clock.Percentage.FULL -> R.drawable.ic_caffeine_full
-                    Clock.Percentage.SIXTY_SIX -> R.drawable.ic_caffeine_66percent
-                    Clock.Percentage.THIRTY_THREE -> R.drawable.ic_caffeine_33percent
+                    Clock.Percentage.FULL -> R.drawable.ic_caffeine_empty
                 })
     }
     /**

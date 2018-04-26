@@ -26,18 +26,11 @@
                 <action android:name="android.service.quicksettings.action.QS_TILE" />
             </intent-filter>
         </service>
-        <service android:name="jmosley.android.caffeine.services.ScreenOffReceiverService" />
+        <service android:name="jmosley.edu.android.caffeine.services.ScreenOffReceiverService" />
 
         <activity
-            android:name="jmosley.android.caffeine.MainActivity"
-            android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:name="jmosley.edu.android.caffeine.SettingsActivity"
+            android:label="@string/title_activity_settings" />
 
         <meta-data
             android:name="android.support.VERSION"

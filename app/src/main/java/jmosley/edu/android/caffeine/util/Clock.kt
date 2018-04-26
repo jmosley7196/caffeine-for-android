@@ -7,8 +7,6 @@ import java.lang.ref.WeakReference
 object Clock {
     enum class Percentage(val value: Int) {
         FULL(100),
-        SIXTY_SIX(66),
-        THIRTY_THREE(33)
     }
 
     private var min: Int = 0
@@ -62,13 +60,8 @@ object Clock {
      * [Percentage.SIXTY_SIX] for %66 percentage, *0* otherwise.
      */
     fun getPercentage(): Percentage {
-        val totalsec = min * 60 + sec
-        val perc = totalsec.toFloat() / (CaffeineManager.mode.min * 60) * 100
-        return when {
-            perc <= Percentage.THIRTY_THREE.value -> Percentage.THIRTY_THREE
-            perc <= Percentage.SIXTY_SIX.value    -> Percentage.SIXTY_SIX
-            else                                  -> Percentage.FULL
-        }
+        val perc = Percentage.FULL
+        return perc
     }
 
     /**
