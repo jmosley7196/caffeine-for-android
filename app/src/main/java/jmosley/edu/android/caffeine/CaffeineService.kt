@@ -20,7 +20,7 @@ class CaffeineService : TileService(), ClockListener, Loggable {
     /**
      * overide fun onClick
      *
-     * if the device isnt locked  changes mode into thinking the phone is awake while running
+     * Checks to see if device is locked
      */
     override fun onClick() {
         super.onClick()

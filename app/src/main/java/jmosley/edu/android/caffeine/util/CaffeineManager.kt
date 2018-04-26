@@ -30,14 +30,6 @@ object CaffeineManager : Loggable {
      */
     fun changeMode(context: Context) = when(mode) {
         CaffeineMode.INACTIVE,
-        CaffeineMode.ONE_MIN,
-        CaffeineMode.FIVE_MINS,
-        CaffeineMode.TEN_MINS -> {
-            mode = mode.next()
-            Clock.set(context, mode.min)
-            acquireWakeLock(context, mode.min)
-            context.startService<ScreenOffReceiverService>()
-        }
         CaffeineMode.INFINITE_MINS -> {
             reset(context)
             Clock.reset()
