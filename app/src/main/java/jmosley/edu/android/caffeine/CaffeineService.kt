@@ -109,9 +109,7 @@ class CaffeineService : TileService(), ClockListener, Loggable {
     override fun onTick() {
         updateTile(state = Tile.STATE_ACTIVE,
                 label = Clock.toString(),
-                icon = when (Clock.getPercentage()) {
-                    Clock.Percentage.FULL -> R.drawable.ic_caffeine_empty
-                })
+                icon = R.drawable.ic_caffeine_full)
     }
     /**
      * overide fun onFinish

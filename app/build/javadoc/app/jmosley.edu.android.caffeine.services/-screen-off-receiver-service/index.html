@@ -1,0 +1,118 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>ScreenOffReceiverService - app</title>
+<link rel="stylesheet" href="..\..\..\style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">jmosley.edu.android.caffeine.services</a>&nbsp;/&nbsp;<a href=".">ScreenOffReceiverService</a><br/>
+<br/>
+<h1>ScreenOffReceiverService</h1>
+<code><span class="keyword">class </span><span class="identifier">ScreenOffReceiverService</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/app/Service.html"><span class="identifier">Service</span></a><span class="symbol">, </span><a href="../../jmosley.edu.android.caffeine.util/-loggable/index.html"><span class="identifier">Loggable</span></a></code>
+<p>Class ScreenOffRecieverService</p>
+<p>Works with screen power to keep it on when the phone tries to put itself to sleep</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">ScreenOffReceiverService</span><span class="symbol">(</span><span class="symbol">)</span></code>
+<p>Class ScreenOffRecieverService</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Inherited Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="../../jmosley.edu.android.caffeine.util/-loggable/tag.html">tag</a></p>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">val </span><span class="identifier">tag</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="on-bind.html">onBind</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onBind</span><span class="symbol">(</span><span class="identifier" id="jmosley.edu.android.caffeine.services.ScreenOffReceiverService$onBind(android.content.Intent)/intent">intent</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Intent.html"><span class="identifier">Intent</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-nothing/index.html"><span class="identifier">Nothing</span></a><span class="symbol">?</span></code>
+<p>overide fun onBind</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-destroy.html">onDestroy</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onDestroy</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>overide fun onDestroy</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-start-command.html">onStartCommand</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onStartCommand</span><span class="symbol">(</span><span class="identifier" id="jmosley.edu.android.caffeine.services.ScreenOffReceiverService$onStartCommand(android.content.Intent, kotlin.Int, kotlin.Int)/intent">intent</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Intent.html"><span class="identifier">Intent</span></a><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="jmosley.edu.android.caffeine.services.ScreenOffReceiverService$onStartCommand(android.content.Intent, kotlin.Int, kotlin.Int)/flags">flags</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="jmosley.edu.android.caffeine.services.ScreenOffReceiverService$onStartCommand(android.content.Intent, kotlin.Int, kotlin.Int)/startId">startId</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>overide fun onStartCommand</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Extension Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="../../jmosley.edu.android.caffeine.util/android.content.-context/power-manager.html">powerManager</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">.</span><span class="identifier">powerManager</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/os/PowerManager.html"><span class="identifier">PowerManager</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Extension Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="../../jmosley.edu.android.caffeine.util/info.html">info</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><a href="../../jmosley.edu.android.caffeine.util/-loggable/index.html"><span class="identifier">Loggable</span></a><span class="symbol">.</span><span class="identifier">info</span><span class="symbol">(</span><span class="identifier" id="jmosley.edu.android.caffeine.util$info(jmosley.edu.android.caffeine.util.Loggable, kotlin.Any)/message">message</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html"><span class="identifier">Any</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="../../jmosley.edu.android.caffeine.util/android.content.-context/start-service.html">startService</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">T</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/app/Service.html"><span class="identifier">Service</span></a><span class="symbol">&gt;</span> <a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">.</span><span class="identifier">startService</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="../../jmosley.edu.android.caffeine.util/android.content.-context/stop-service.html">stopService</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">T</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/app/Service.html"><span class="identifier">Service</span></a><span class="symbol">&gt;</span> <a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">.</span><span class="identifier">stopService</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="../../jmosley.edu.android.caffeine.util/verbose.html">verbose</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><a href="../../jmosley.edu.android.caffeine.util/-loggable/index.html"><span class="identifier">Loggable</span></a><span class="symbol">.</span><span class="identifier">verbose</span><span class="symbol">(</span><span class="identifier" id="jmosley.edu.android.caffeine.util$verbose(jmosley.edu.android.caffeine.util.Loggable, kotlin.Any)/message">message</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html"><span class="identifier">Any</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

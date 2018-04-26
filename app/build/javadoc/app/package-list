@@ -1,0 +1,8 @@
+$dokka.format:html
+$dokka.linkExtension:html
+$dokka.location:jmosley.edu.android.caffeine.util$powerManager#android.content.Contextjmosley.edu.android.caffeine.util/android.content.-context/power-manager.html
+$dokka.location:jmosley.edu.android.caffeine.util$startService(android.content.Context)jmosley.edu.android.caffeine.util/android.content.-context/start-service.html
+$dokka.location:jmosley.edu.android.caffeine.util$stopService(android.content.Context)jmosley.edu.android.caffeine.util/android.content.-context/stop-service.html
+jmosley.edu.android.caffeine
+jmosley.edu.android.caffeine.services
+jmosley.edu.android.caffeine.util

@@ -18,19 +18,28 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <service
-            android:name="jmosley.android.caffeine.CaffeineService"
+            android:name="jmosley.edu.android.caffeine.CaffeineService"
             android:icon="@drawable/ic_caffeine_empty"
             android:label="@string/tile_name"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
             <intent-filter>
                 <action android:name="android.service.quicksettings.action.QS_TILE" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </service>
         <service android:name="jmosley.edu.android.caffeine.services.ScreenOffReceiverService" />
 
         <activity
             android:name="jmosley.edu.android.caffeine.SettingsActivity"
-            android:label="@string/title_activity_settings" />
+            android:label="@string/title_activity_settings" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
         <meta-data
             android:name="android.support.VERSION"

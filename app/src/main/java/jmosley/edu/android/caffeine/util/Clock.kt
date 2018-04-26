@@ -60,8 +60,7 @@ object Clock {
      * [Percentage.SIXTY_SIX] for %66 percentage, *0* otherwise.
      */
     fun getPercentage(): Percentage {
-        val perc = Percentage.FULL
-        return perc
+        return Percentage.FULL
     }
 
     /**
@@ -70,9 +69,7 @@ object Clock {
     override fun toString(): String {
         if(CaffeineManager.mode == CaffeineMode.INFINITE_MINS)
             return CaffeineManager.mode.label
-        if (sec < 10)
-            return "$min:0$sec"
-        return "$min:$sec"
+        return "Caffeine Active"
     }
 
     internal object TimerObject {
